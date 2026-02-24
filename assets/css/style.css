@@ -1,0 +1,13 @@
+body {
+    background-color: darkorchid; /*fondo de la pagina*/
+    color: lawngreen; /*color del texto*/
+}
+h1{
+    color: aquamarine; /*color del h1*/
+}
+.h1{ /*class = h1 en el html*/
+    color: black; /* color de la letra*/
+    font-size: 30px; /*cambia el tamanio de la letra*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipo de fuente*/
+    text-transform: uppercase; /*cambia el formato de la fuente a mayuscula*/
+}

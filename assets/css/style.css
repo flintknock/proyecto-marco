@@ -1,6 +1,6 @@
 body {
-    background-color: darkorchid; /*fondo de la pagina*/
-    color: lawngreen; /*color del texto*/
+    background-color: white; /*fondo de la pagina*/
+    color: rgb(252, 0, 0); /*color del texto*/
 }
 h1{
     color: aquamarine; /*color del h1*/

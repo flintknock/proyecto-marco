@@ -3,91 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 1</title>
-    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Endigital</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-7.2.0-web/css/all.css">
 </head>
 <body>
-    <h1 class="h1">Aprendiendo Programacion</h1>
-    <h2>Html</h2>
-    <h3>CSS</h3>
-    <h4 class="h1">Php</h4>
-    <h5 class="h1">JavaScript</h5>
-    <h6>Python</h6>
-    <p>El estado Guarico tiene 15 municipios y su capital es la ciudad de San Juan de Los Morros</p>
-<!--Listas Desordenadas-->
-    <ul>
-        <li>
-            <a href="https://es.wikipedia.org/wiki/Maracay" target="_blank">Maracay</a>
-        </li>
-        <li>
-            <a href="https://es.wikipedia.org/wiki/Caracas" target="_blank">Caracas</a>
-        </li>
-        <li>
-            <a>Valencia</a>
-        </li>
-        <li>
-            <a>Maracaibo</a>
-        </li>
-        <li>
-            <a>Coro</a>
-        </li>
-    </ul>
-<!--Fin de Listas Desordenadas-->
-<!--Listas Ordenadas-->
-    <ol>
-        <li>
-            <a>Maracay</a>
-        </li>
-        <li>
-            <a>Caracas</a>
-        </li>
-        <li>
-            <a>Valencia</a>
-        </li>
-        <li>
-            <a>Maracaibo</a>
-        </li>
-        <li>
-            <a>Coro</a>
-        </li>
-    </ol>
-<!--Fin de Listas Ordenadas-->
-    <a href="assets/images/paisaje.jpg" target="_self">
-        <img src="assets/images/paisaje.jpg" alt="paisaje" width="550"
-    </a>
-    <table width="75%" border="1">
-        <tr>
-            <td>Num</td>
-            <td>Nombre</td>
-            <td>Apellido</td>
-            <td>Castellano</td>
-            <td>Matematicas</td>
-            <td>Foto</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Juan</td>
-            <td>Perez</td>
-            <td>18</td>
-            <td>18</td>
-            <td> <img src="assets/images/paisaje.jpg" width="55" alt="Juan"></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Maria</td>
-            <td>Rojas</td>
-            <td>19</td>
-            <td>18</td>
-            <td> <img src="assets/images/paisaje.jpg" width="55" alt="Maria"></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Rosa</td>
-            <td>Alvarez</td>
-            <td>20</td>
-            <td>18</td>
-            <td><img src="assets/images/paisaje.jpg" width="55" alt="Rosa"></td>
-        </tr>
-    </table>
+    <header>
+        <div class="logo-header">
+            <img src="assets/images/logo-endigital.png" alt="logo-endigital" class="logo">
+        </div>
+        <hav>
+            <ul class="main-menu">
+                <li><a href="index.html" target="_self">Inicio</a></li>
+                <li><a href="quienes-somos.html" target="_self">Quienes Somos</a></li>
+                <li><a href="servicios.html" target="_self">Servicios</a></li>
+                <li><a href="portafolio.html" target="_self">Portafolio</a></li>
+                <li><a href="contacto.html" target="_self">Contacto</a></li>
+            </ul>
+        </hav>
+    </header>
+
+    <!-- Quienes Somos-->
+     <section class="container-fluid">
+        <div class="col">
+            <img src="assets/images/team.jpg" alt="team" class="img-fluid">
+        </div>
+        <div class="col padding-50x">
+            <h2 class="main-color-font">Quienes Somos</h2>
+            <p>Somos un equipo de jóvenes profesionales amantes de la tecnología, que brinda el servicio de desarrollo de sitios web, apps, mantenimiento y formaciones</p>
+            <ul>
+                <li><i class="fa-solid fa-circle-check"></i> Landing Page</li>
+                <li><i class="fa-solid fa-circle-check"></i> E-Commerce</li>
+                <li><i class="fa-solid fa-circle-check"></i> Apps</li>
+                <li><i class="fa-solid fa-circle-check"></i> Mantenimiento Web</li>
+                <li><i class="fa-solid fa-circle-check"></i> Formaciones</li>
+            </ul>
+            <button class="btn-main-color">Conversemos</button>
+        </div>
+     </section>
 </body>
 </html>

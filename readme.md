@@ -15,4 +15,5 @@
 - Jenny Rojas
 
 [Sitio Web Academia](https://academiaendigital.com/)
+
 ![Team](assets/images/team.jpg)

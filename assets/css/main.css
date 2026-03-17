@@ -152,16 +152,21 @@ p{
 }
 label{
     width: 100%;
+    margin-top: 10px;
 }
 input[type="text"], [type="email"]{
     width: 100%;
     border: 1px solid gray;
-    padding: 3px    ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 select{
     width: 100%;
     border: 1px solid gray;
-    padding: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 input[type="submit"]{
     width: 80%;
@@ -169,4 +174,7 @@ input[type="submit"]{
     color: var(--white);
     padding: 15px;
     border-radius: 13px;
+}
+.contacto .col{
+    padding: 30px;
 }

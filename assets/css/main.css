@@ -18,6 +18,9 @@ body{
 html{
     box-sizing: border-box;
 }
+*,*:before,*:after{
+    box-sizing: inherit;
+}
 header{
     background-color: var(--grey-dark);
     color: var(--white);
@@ -138,4 +141,32 @@ p{
 }
 .social-iconos a:hover{
     color: var(--main-color);
+}
+/*CONTACTO*/
+.title{
+    color:var(--main-color)
+}
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+label{
+    width: 100%;
+}
+input[type="text"], [type="email"]{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 3px    ;
+}
+select{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 3px;
+}
+input[type="submit"]{
+    width: 80%;
+    background-color: var(--secundary-color);
+    color: var(--white);
+    padding: 15px;
+    border-radius: 13px;
 }

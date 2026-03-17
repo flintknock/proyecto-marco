@@ -7,6 +7,7 @@
     --white:#ffffff;
     --black:#000000;
     --grey-dark:#021526;
+    --dark-blue:#030147;
 }
 body{
     margin: 0;
@@ -30,6 +31,9 @@ ul{
 a{
     text-decoration: none;
 }
+a:hover{
+    text-decoration: none;
+}
 .logo{
     width: 200px;
 }
@@ -45,7 +49,7 @@ a{
 }
 
 /*quienes somos*/
-.container-fluid{
+.quienes-somos{
     display: grid;
     grid-template-columns: auto auto; /*se divide en dos columnas*/
 }
@@ -54,6 +58,9 @@ a{
 }
 .padding-50x{
     padding: 20px;
+}
+.padding-80x{
+    padding: 80px 30px;
 }
 h2{
     font-size: 2rem;
@@ -76,4 +83,59 @@ p{
 .btn-main-color:hover{
     background-color: var(--main-color);
     color: var(--white-pink);
+}
+
+/*SERVICIOS*/
+.container-fluid{
+    width: 100%;
+}
+.white-pink{
+    background-color: var(--white-pink);
+    color: var(--black);
+}
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;/*Agrega espacios entre las filas de la tabla*/
+}
+.center{
+    text-align: center;
+}
+.blue{
+    color: var(--dark-blue);
+}
+.blue:hover{
+    color: var(--main-color);
+}
+
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
+.grey-dark{
+    background-color: var(--grey-dark);
+    color: var(--white)
+}
+.footer ul li a{
+    color: var(--white);
+}
+.footer ul li a:hover{
+    color: var(--main-color);
+}
+.footer h3{
+    color: var(--secundary-color);
+    padding-left: 40px;
+}
+.social-iconos a{
+    color: var(--secundary-color);
+    font-size: 1.5rem;
+    padding-left: 35px;
+}
+.social-iconos a:hover{
+    color: var(--main-color);
 }

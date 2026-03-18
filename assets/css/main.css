@@ -175,6 +175,13 @@ input[type="submit"]{
     padding: 15px;
     border-radius: 13px;
 }
+input[type="submit"]:hover{
+    color: var(--main-color);
+}
 .contacto .col{
     padding: 30px;
+}
+.center-block{
+    margin: auto;
+    display: block;
 }

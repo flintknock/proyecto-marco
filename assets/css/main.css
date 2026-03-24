@@ -180,6 +180,13 @@ input[type="submit"]{
 input[type="submit"]:hover{
     color: var(--main-color);
 }
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 .contacto .col{
     padding: 30px;
 }

@@ -1,0 +1,75 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    animation: box;
+    animation-duration: 5s;
+    position: relative;
+    animation-iteration-count: 1;
+}
+/*
+@keyframes box {
+    from{ background-color: black;}
+    to{ background-color: red;}
+
+}
+*/
+@keyframes box {
+    0%{ background-color: chartreuse; left: 0px; top: 0px;}
+    25%{ background-color: aqua;left: 300px; top: 0px;}
+    /*50%{ background-color: darkorchid;left: 300px; top: 300px;}
+    75%{ background-color: blanchedalmond;left: 0px; top: 300px;}*/
+    100%{ background-color:chocolate; left: 0px; top: 0px;}
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    animation: box1;
+    animation-duration: 6s;
+    position: relative;
+   animation-iteration-count: 1;
+}
+@keyframes box1{
+    0%{ background-color: chartreuse; left: 0px; top: 0px;}
+    25%{ background-color: aqua;left: 300px; top: 0px;}
+  /*  50%{ background-color: darkorchid;left: 300px; top: 300px;}
+    75%{ background-color: blanchedalmond;left: 0px; top: 300px;}*/
+    100%{ background-color:rgb(202, 18, 18); left: 50px; top: 0px;}
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    animation: box2;
+    animation-duration: 7s;
+    position: relative;
+    animation-iteration-count: 1;
+}
+@keyframes box2{
+    0%{ background-color: chartreuse; left: 0px; top: 0px;}
+    25%{ background-color: aqua;left: 300px; top: 0px;}
+ /*   50%{ background-color: darkorchid;left: 300px; top: 300px;}
+    75%{ background-color: blanchedalmond;left: 0px; top: 300px;}*/
+    100%{ background-color:rgb(53, 255, 13); left: 100px; top: 0px;}
+}
+.box3{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    animation: box3;
+    animation-duration: 8s;
+    position: relative;
+    animation-iteration-count: 1;
+}
+@keyframes box3{
+    0%{ background-color: chartreuse; left: 0px; top: 0px;}
+    25%{ background-color: aqua;left: 300px; top: 0px;}
+   /* 50%{ background-color: darkorchid;left: 300px; top: 300px;}
+    70%{ background-color: blanchedalmond;left: 0px; top: 300px;}*/
+    100%{ background-color:rgb(215, 16, 230); left: 150px; top: 0px;}
+}

@@ -154,7 +154,7 @@ label{
     width: 100%;
     margin-top: 10px;
 }
-input[type="text"], [type="email"]{
+input[type="text"], [type="email"], [type="date"]{
     width: 100%;
     border: 1px solid gray;
     padding: 10px;
@@ -169,6 +169,8 @@ select{
     margin-bottom: 10px;
 }
 input[type="submit"]{
+    display: block;
+    margin: 20px auto;
     width: 80%;
     background-color: var(--secundary-color);
     color: var(--white);
@@ -180,8 +182,4 @@ input[type="submit"]:hover{
 }
 .contacto .col{
     padding: 30px;
-}
-.center-block{
-    margin: auto;
-    display: block;
 }

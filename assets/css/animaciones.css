@@ -1,7 +1,7 @@
 .box{
     width: 150px;
     height: 150px;
-    background-color: blue;
+    background-color: chocolate;
     color: white;
     animation: box;
     animation-duration: 5s;
@@ -25,7 +25,7 @@
 .box1{
     width: 150px;
     height: 150px;
-    background-color: blue;
+    background-color: rgb(202, 18, 18);
     color: white;
     animation: box1;
     animation-duration: 6s;
@@ -42,7 +42,7 @@
 .box2{
     width: 150px;
     height: 150px;
-    background-color: blue;
+    background-color: rgb(53, 255, 13);
     color: white;
     animation: box2;
     animation-duration: 7s;
@@ -59,17 +59,17 @@
 .box3{
     width: 150px;
     height: 150px;
-    background-color: blue;
+    background-color: rgb(215, 16, 230);
     color: white;
     animation: box3;
-    animation-duration: 8s;
+    animation-duration: 5s;
     position: relative;
-    animation-iteration-count: 1;
+    /*animation-iteration-count: 1;*/
 }
 @keyframes box3{
     0%{ background-color: chartreuse; left: 0px; top: 0px;}
-    25%{ background-color: aqua;left: 300px; top: 0px;}
+    /*25%{ background-color: aqua;left: 300px; top: 0px;}
    /* 50%{ background-color: darkorchid;left: 300px; top: 300px;}
     70%{ background-color: blanchedalmond;left: 0px; top: 300px;}*/
-    100%{ background-color:rgb(215, 16, 230); left: 150px; top: 0px;}
+    100%{ background-color:rgb(215, 16, 230); left: 300px; top: 0px;}
 }

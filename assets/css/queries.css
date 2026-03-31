@@ -6,8 +6,8 @@
 /*SERVICIOS*/
 .servicios{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 50px;/*Agrega espacios entre las filas de la tabla*/
+    grid-template-columns: 1fr 1fr;
+    row-gap: 60px;/*Agrega espacios entre las filas de la tabla*/
 }
 .img-fluid{
     max-width: 768px;

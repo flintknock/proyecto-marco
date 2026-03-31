@@ -10,12 +10,12 @@
     row-gap: 50px;/*Agrega espacios entre las filas de la tabla*/
 }
 .img-fluid{
-    max-width: 650px;
+    max-width: 768px;
 }
 /*FOOTER*/
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 30px;
 }
 .logo-footer{
@@ -24,7 +24,7 @@
 /*CONTACTO*/
 .contacto{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin-top: 0;
 }
 .mapa{

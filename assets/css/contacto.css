@@ -3,8 +3,9 @@
     color:var(--main-color)
 }
 .contacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 0;
 }
 label{
     width: 100%;
@@ -48,4 +49,8 @@ textarea{
 }
 .contacto .col{
     padding: 30px;
+}
+.mapa{
+    width: 100%;
+    height: auto;
 }

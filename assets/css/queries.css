@@ -1,8 +1,9 @@
 @media (min-width: 768px) { /*Tablets (Breakpoints: 768px a 1023px) Cambia el diseño a algo mas ancho*/
 .quienes-somos{
     display: grid;
-    grid-template-columns: auto auto; /*se divide en dos columnas*/
+    grid-template-columns: auto; /*se divide en dos columnas*/
 }
+/*SERVICIOS*/
 .servicios{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -11,6 +12,7 @@
 .img-fluid{
     max-width: 650px;
 }
+/*FOOTER*/
 .footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -19,9 +21,51 @@
 .logo-footer{
     width: 300px;
 }
+/*CONTACTO*/
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+.mapa{
+    width: 100%;
+    height: 400px;
+}
+
 }
 
 @media (min-width: 1024px) { /*Desktop (Breakpoints: 1024px en adelante)*/
-
+.quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto; /*se divide en dos columnas*/
+}
+/*SERVICIOS*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;/*Agrega espacios entre las filas de la tabla*/
+}
+.img-fluid{
+    max-width: 650px;
+}
+/*FOOTER*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
+/*CONTACTO*/
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+.mapa{
+    width: 100%;
+    height: 400px;
+}
 
 }

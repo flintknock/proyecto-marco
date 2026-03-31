@@ -1,7 +1,7 @@
 /*quienes somos*/
 .quienes-somos{
-    display: grid;
-    grid-template-columns: auto auto; /*se divide en dos columnas*/
+    display: flex;
+    flex-direction: column;
 }
 .img-fluid{
     max-width: 650px;
@@ -23,7 +23,7 @@ p{
     font-weight: 400;
 }
 .btn-main-color{
-    width: 200px;
+    width: 50%;
     background-color: var(--secundary-color);
     color: var(--white);
     font-size: 1rem;

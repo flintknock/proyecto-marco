@@ -32,6 +32,9 @@ input[type="submit"]{
     color: var(--white);
     padding: 15px;
     border-radius: 13px;
+    border: none; /* elimina el borde por defecto de los botones*/
+    cursor: pointer; /*Mejora la experiencia de usuario (UXs)*/
+    font-weight: 600;
 }
 input[type="submit"]:hover{
     color: var(--main-color);

@@ -1,0 +1,12 @@
+@media (min-width: 768px) { /*Tablets (Breakpoints: 768px a 1023px) Cambia el diseño a algo mas ancho*/
+.quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto; /*se divide en dos columnas*/
+}
+
+}
+
+@media (min-width: 1024px) { /*Desktop (Breakpoints: 1024px en adelante)*/
+
+
+}

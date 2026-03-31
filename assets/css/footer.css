@@ -1,11 +1,11 @@
 /*footer*/
 .footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     padding: 30px;
 }
 .logo-footer{
-    width: 300px;
+    max-width: 200px;
 }
 .grey-dark{
     background-color: var(--grey-dark);

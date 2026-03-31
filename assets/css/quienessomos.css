@@ -4,7 +4,7 @@
     flex-direction: column;
 }
 .img-fluid{
-    max-width: 650px;
+    max-width: 100%;
 }
 .padding-50x{
     padding: 20px;

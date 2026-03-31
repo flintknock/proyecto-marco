@@ -3,7 +3,22 @@
     display: grid;
     grid-template-columns: auto auto; /*se divide en dos columnas*/
 }
-
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;/*Agrega espacios entre las filas de la tabla*/
+}
+.img-fluid{
+    max-width: 650px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
 }
 
 @media (min-width: 1024px) { /*Desktop (Breakpoints: 1024px en adelante)*/

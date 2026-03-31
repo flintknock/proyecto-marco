@@ -1,0 +1,31 @@
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
+.grey-dark{
+    background-color: var(--grey-dark);
+    color: var(--white)
+}
+.footer ul li a{
+    color: var(--white);
+}
+.footer ul li a:hover{
+    color: var(--main-color);
+}
+.footer h3{
+    color: var(--secundary-color);
+    padding-left: 40px;
+}
+.social-iconos a{
+    color: var(--secundary-color);
+    font-size: 1.5rem;
+    padding-left: 35px;
+}
+.social-iconos a:hover{
+    color: var(--main-color);
+}

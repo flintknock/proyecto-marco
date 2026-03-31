@@ -1,0 +1,22 @@
+/*SERVICIOS*/
+.container-fluid{
+    width: 100%;
+}
+.white-pink{
+    background-color: var(--white-pink);
+    color: var(--black);
+}
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;/*Agrega espacios entre las filas de la tabla*/
+}
+.center{
+    text-align: center;
+}
+.blue{
+    color: var(--dark-blue);
+}
+.blue:hover{
+    color: var(--main-color);
+}
